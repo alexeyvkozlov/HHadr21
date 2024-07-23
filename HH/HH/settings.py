@@ -22,10 +22,10 @@ load_dotenv()
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = os.getenv('django_secret')
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-z-8+bq$fyxe5)+d+wrd&&$o@_0gw+bhvl3)gk(^b3ab%h&99mg'
+SECRET_KEY = os.getenv('django_secret')
+# SECURITY WARNING: keep the secret key used in production secret!
+# SECRET_KEY = 'django-insecure-z-8+bq$fyxe5)+d+wrd&&$o@_0gw+bhvl3)gk(^b3ab%h&99mg'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
